@@ -1,0 +1,84 @@
+.section-home-container {
+    min-height: 100vh;
+    padding: 92px 30px 0;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F7F9FA 100%);
+}
+
+.section-home-container h1 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.section-home-container h2 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #7e7e7e;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 40px;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    color: #fff;
+    background-color: #1890ff;
+}
+
+@media (min-width: 576px) {
+    .section-home-container {
+        padding: 92px 40px 0;
+    }
+
+    .section-home-container h1 {
+        font-size: 34px;
+    }
+    
+    .section-home-container h2 {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 768px) {
+    .section-home-container h1 {
+        font-size: 38px;
+    }
+    
+    .section-home-container h2 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .section-home-container h1 {
+        font-size: 40px;
+    }
+    
+    .section-home-container h2 {
+        font-size: 21px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section-home-container h1 {
+        font-size: 44px;
+    }
+    
+    .section-home-container h2 {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .section-home-container h1 {
+        font-size: 48px;
+    }
+
+    .section-home-container h2 {
+        font-size: 24px;
+    }
+}

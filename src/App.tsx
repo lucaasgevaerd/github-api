@@ -1,9 +1,10 @@
 import './assets/styles/custom.scss';
 import './App.css';
+import AppRouter from 'AppRouter';
 
 function App() {
   return (
-    <h1>Hello Github API</h1>
+    <AppRouter/>
   );
 }
 

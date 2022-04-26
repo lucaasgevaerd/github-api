@@ -1,0 +1,250 @@
+.main-container {
+  padding: 77px 10px 20px 10px;
+  background: #fff;
+  min-height: 100vh;
+}
+
+.section-find-profile-container {
+  background-color: #e6f7ff;
+  padding: 20px;
+  border-radius: 16px;
+  max-width: 370px;
+  margin: 0 auto;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-container h2 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  font-weight: 500;
+  color: #262626;
+}
+
+.form-container input {
+  max-width: 300px;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  padding: 8px 17px;
+}
+
+.form-container input::placeholder {
+  color: #bfbfbf;
+}
+
+.form-container input:focus {
+  outline: 1px solid #1890ff;
+}
+
+.empty-field {
+  margin-top: 5px;
+  color: #ff0000;
+}
+
+.form-container button {
+  margin-top: 25px;
+}
+
+.result-error {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 370px;
+  margin: 15px auto 20px;
+}
+
+.result-error h4 {
+  font-size: 20px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 350px;
+}
+
+.img-container img {
+  border-radius: 6px 6px 0 0;
+  width: 100%;
+  max-width: 450px;
+}
+
+.result-container {
+  margin: 15px auto 0;
+  padding: 10px 10px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 370px;
+}
+
+.profile-information-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px;
+  border-radius: 0 0 6px 6px;
+  border: 1px solid #d9d9d9;
+  background-color: #fff;
+  width: 100%;
+  max-width: 350px;
+}
+
+.profile-information-container h3 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #1890ff;
+  margin-bottom: 14px;
+}
+
+.outline {
+  display: flex;
+  font-weight: 700;
+  color: #737373;
+  margin-top: 5px;
+  border: 1px solid #d9d9d9;
+  padding: 8px 10px;
+  border-radius: 4px;
+}
+
+.outline p {
+  margin-bottom: 0;
+  word-break: break-all;
+}
+
+.text-field {
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+@media (min-width: 576px) {
+  .main-container {
+    padding: 92px 10px 30px 10px;
+  }
+
+  .result-container {
+    margin: 30px auto 0;
+    max-width: 420px;
+    padding: 30px 10px;
+  }
+
+  .section-find-profile-container {
+    max-width: 420px;
+    padding: 30px 35px;
+  }
+
+  .form-container h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .result-error {
+    padding: 30px 35px;
+    max-width: 420px;
+    margin: 30px auto 20px;
+  }
+
+  .result-error h4 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-find-profile-container {
+    max-width: 450px;
+    padding: 30px 40px;
+  }
+
+  .result-container {
+    max-width: 450px;
+    padding: 40px 0;
+  }
+
+  .img-container {
+    max-width: 370px;
+  }
+
+  .profile-information-container {
+    max-width: 370px;
+  }
+
+  .result-error {
+    max-width: 450px;
+  }
+}
+
+@media (min-width: 992px) {
+  .section-find-profile-container {
+    max-width: 800px;
+    padding: 54px 31px;
+  }
+
+  .result-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    margin: 50px auto 0;
+    justify-content: unset;
+    padding: 40px 45px;
+  }
+
+  .img-container {
+    max-width: 250px;
+  }
+
+  .img-container img {
+    border-radius: unset;
+  }
+
+  .profile-information-container {
+    max-width: none;
+    height: 250px;
+    padding: 10px 15px;
+    margin-left: 30px;
+    border-radius: 6px;
+  }
+
+  .result-error {
+    max-width: 800px;
+    padding: 35px 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-find-profile-container {
+    max-width: 1000px;
+  }
+
+  .result-container {
+    max-width: 1000px;
+  }
+
+  .result-error {
+    max-width: 1000px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .section-find-profile-container {
+    max-width: 1250px;
+  }
+
+  .result-container {
+    max-width: 1250px;
+  }
+
+  .result-error {
+    max-width: 1250px;
+  }
+}
