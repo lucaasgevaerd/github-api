@@ -8,9 +8,8 @@ const Home = () => {
         <Navbar />
         <main>
             <section className="section-home-container">
-                <h1>Desafio Github API</h1>
-                <h2>Bootcamp Spring React - DevSuperior</h2>
-                <Link to="/find-profile"><button type="submit" className="btn btn-primary shadow-none">Começar</button></Link>
+                <h2>Buscar usuário no Github</h2>
+                <Link to="/find-profile"><button type="submit" className="btn btn-primary shadow-none">Iniciar</button></Link>
             </section>
         </main>
         </>

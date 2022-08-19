@@ -98,7 +98,7 @@ const FindProfile = () => {
       <main className="main-container">
         <section className="section-find-profile-container">
           <form action="" className="form-container" onSubmit={handleSubmit}>
-            <h2>Encontre um perfil Github</h2>
+            <h2>Busque um perfil do Github</h2>
             <input
               type="text"
               placeholder="Usuário Github"
@@ -110,7 +110,7 @@ const FindProfile = () => {
               <div className="empty-field">Campo requerido</div>
             )}
             <button type="submit" className="btn btn-primary shadow-none">
-              Encontrar
+              Buscar
             </button>
           </form>
         </section>
